@@ -1,0 +1,59 @@
+/* public/css/login.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f7fc;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.login-container .form-group {
+    margin-bottom: 15px;
+}
+
+.login-container .form-control {
+    border-radius: 4px;
+    height: 45px;
+    padding: 10px;
+}
+
+.login-container .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.login-container .forgot-password,
+.login-container .create-account {
+    margin-top: 10px;
+    font-size: 0.875rem;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+footer a {
+    margin: 0 5px;
+    color: #6c757d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
